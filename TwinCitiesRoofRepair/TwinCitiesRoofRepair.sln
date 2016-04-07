@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinCitiesRoofRepair", "TwinCitiesRoofRepair\TwinCitiesRoofRepair.csproj", "{E2B63743-60E3-4AA7-AFC8-D7CD6D0F71AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinCitiesRoofRepair.Tests", "TwinCitiesRoofRepair.Tests\TwinCitiesRoofRepair.Tests.csproj", "{13ADE8CF-8643-4103-AF95-8E91BD1D26F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{D9790CEB-9ADE-4D04-9A02-23FD37732F82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{C9BA6BE3-134E-44F2-B5A3-F53A9D3B7832}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{092C00DA-A5FB-426D-8EAE-5485A2FF9754}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\TwinCitiesRoofRepair.json = PublishScripts\Templates\TwinCitiesRoofRepair.json
+		PublishScripts\Templates\TwinCitiesRoofRepair.param.dev.json = PublishScripts\Templates\TwinCitiesRoofRepair.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2B63743-60E3-4AA7-AFC8-D7CD6D0F71AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B63743-60E3-4AA7-AFC8-D7CD6D0F71AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B63743-60E3-4AA7-AFC8-D7CD6D0F71AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B63743-60E3-4AA7-AFC8-D7CD6D0F71AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13ADE8CF-8643-4103-AF95-8E91BD1D26F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ADE8CF-8643-4103-AF95-8E91BD1D26F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ADE8CF-8643-4103-AF95-8E91BD1D26F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ADE8CF-8643-4103-AF95-8E91BD1D26F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9BA6BE3-134E-44F2-B5A3-F53A9D3B7832} = {D9790CEB-9ADE-4D04-9A02-23FD37732F82}
+		{092C00DA-A5FB-426D-8EAE-5485A2FF9754} = {D9790CEB-9ADE-4D04-9A02-23FD37732F82}
+	EndGlobalSection
+EndGlobal
