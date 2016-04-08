@@ -1,0 +1,58 @@
+﻿@using System.Configuration
+@{
+    ViewBag.Title = "Twin Cities Roof Repair - West End Remodeling";
+}
+
+<div class="jumbotron">
+    <h1>XXXX</h1>
+    <p class="lead">You can trust West End Remodeling for all your roofing needs.  Whether your roof is damaged from a storm or is simply in need of replacement, let our experienced team do it right!</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Roof Repair Experts</h2>
+        <p>West End Remodeling has provided expert roofing services to residential and commercial property owners in the Twin Cities metro area.
+           Roofing manufacturer product knowledge, uniform roof installation standards, continuous safety training and a determined commitment
+           to 100% customer satisfaction are the hallmarks of our service.  With West End Remodeling, you will have peace of mind knowing your 
+           home is in expert roofers hands. And yes, our expert roofing services are affordable!</p>
+        <p><a class="btn btn-default" href="@Url.Action("RoofRepairExperts","Home")" title="Learn more about our roofing repair experts">More about Roofing Repair &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Storm Damage Specialists</h2>
+        <p>In an emergency, every second counts. Our roofing specialists offer emergency roof repair with quick turnaround to meet your roofing needs.</p>
+        <p><a class="btn btn-default" href="@Url.Action("StormDamageSpecialists","Home")" title="We are twin cities specialists at repairing storm damaged roofing">Learn more Storm Damage &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>What to Expect</h2>
+        <p></p>
+        <p><a class="btn btn-default" href="@Url.Action("WhatToExpect","Home")" title="What to expect with West End Remodeling roofing services">Learn what to expect from us &raquo;</a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Service Areas</h2>
+        <p>
+            We are full service roofing company serving the Twin Cities metro area. See our coverage area. When hail storms hit Minnesota or Iowa we may assemble
+            teams to assess and repair the damaged areas outside of the metro area. Please contact us at @ConfigurationManager.AppSettings["phone"] if a storm hits your area.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("ServiceAreas","Home")" title="See our roofing services coverage map">See our coverage map &raquo;</a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>How to Choose a Roofing Contractor</h2>
+        <p>
+            Shingle roof replacement is a significant investment. Choosing the right shingles is the first step to a beautiful and strong roof.
+            Price is also linked to the type of roofing material, its features and warranty. Additionally, material and workmanship quality are
+            known to affect the performance as well as the durability of your roofing system. It is important, therefore, to select an experienced
+            and reliable roofing company in Twin Cities metro.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("ChoosingRoofingContractors","Home")" title="What to look for in a roofing contractor">How to choose a roofing contractor &raquo;</a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Insurance Claims</h2>
+        <p>
+            We will work directly with your home insurance company.  
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("InsuranceClaims","Home")" title="Dealing with roofing insurance claims">How we handle roofing insurance claims &raquo;</a></p>
+    </div>
+</div>

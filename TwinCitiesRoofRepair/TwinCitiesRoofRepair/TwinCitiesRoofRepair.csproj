@@ -163,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DisplayModeConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -261,6 +262,7 @@
     <Content Include="Views\Home\ServiceAreas.cshtml" />
     <Content Include="Views\Home\ChoosingRoofingContractors.cshtml" />
     <Content Include="Views\Home\InsuranceClaims.cshtml" />
+    <Content Include="Views\Home\Index.Phone.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
