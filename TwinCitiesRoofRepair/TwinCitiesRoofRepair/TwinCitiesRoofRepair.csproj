@@ -194,6 +194,7 @@
     <Content Include="Content\images\shutterstock\shutterstock_143702518 - Copy.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_143702518.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_148466369.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_189840191.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_205516810.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_212157424.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_250922995.jpg" />
@@ -219,6 +220,7 @@
     <Content Include="Content\images\shutterstock\shutterstock_386633119.eps" />
     <Content Include="Content\images\shutterstock\shutterstock_393222598.eps" />
     <Content Include="Content\images\shutterstock\shutterstock_399868333.eps" />
+    <Content Include="Content\images\Psd\maps.zip" />
     <None Include="Properties\PublishProfiles\twincitiesroofrepair.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

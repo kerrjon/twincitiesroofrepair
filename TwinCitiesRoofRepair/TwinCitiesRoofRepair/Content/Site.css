@@ -1,6 +1,8 @@
 ﻿/*
 #6e612c
 #194420
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
 */
 
 
@@ -8,6 +10,7 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   color: #194420;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -85,6 +88,7 @@ textarea {
 
 .navbar-inverse {
   border-bottom: 0;
+  border-top: 1px solid #6e612c;
   padding-bottom: 15px;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+82,6e612c+83,6e612c+83,6e612c+100&1+0,1+82,0.29+86,1+100,0+100 */
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 82%, rgba(110,97,44,0.82) 83%, rgba(110,97,44,0.29) 86%, rgba(110,97,44,0) 100%); /* FF3.6-15 */
@@ -99,8 +103,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .navbar-inverse .navbar-nav > li > a {
   color: #6e612c;
   font-weight: bold;
+  font-size: 14px;
+  font-weight: 600;
 }
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  margin-top: 40px;
+}
 h1 {
   color: #194420;
   font-size: 35px;
