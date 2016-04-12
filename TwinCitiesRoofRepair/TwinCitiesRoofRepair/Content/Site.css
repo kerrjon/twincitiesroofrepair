@@ -22,7 +22,9 @@ select,
 textarea {
     max-width: 280px;
 }
-
+.fullWidthContainer {
+    clear: both;
+}
 .homeBgrd {
     background: url('/content/images/house-with-greens.jpg');
     background-repeat: no-repeat;
@@ -53,18 +55,15 @@ textarea {
 }
    
 .opacityBox {
-    -ms-opacity: .95;
-    opacity: .95;
+    -ms-opacity: .9;
+    opacity: .9;
     background: #fff;
-    -ms-border-radius: 6px;
-    border-radius: 6px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
 }
 
-.opacityBox .row {
-    margin: 0;
-}
-.opacityBox .row div {
-    padding: 0 15px;
+.featuredRoof .opacityBox {
+    padding: 10px;
 }
 
 .navbar {
@@ -84,4 +83,48 @@ textarea {
 
 .centered {
     text-align: center;
+}
+
+.featuredRoof {
+    background-image: url('images/house-with-greens2.jpg');
+    background-position: top center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+.lightningStrike, .roofersOnHouse {
+    -ms-background-size: cover;
+    background-size: cover;
+    background-image: url('images/lightning-strike.jpg');
+    background-position: bottom center;
+    height: 300px;
+    color: #fff;
+    padding: 40px;
+}
+
+
+
+.topBottomBorder {
+    border-top: 3px solid goldenrod;
+    border-bottom: 3px solid goldenrod;
+}
+
+.roofersOnHouse {
+    background-image: url('images/roofers-on-house.jpg');
+    background-position: top center;
+   
+}
+
+.blueGreenGradient {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#448741+0,448741+48,448741+48,132259+49,132259+100 */
+background: #448741; /* Old browsers */
+background: -moz-linear-gradient(left,  #448741 0%, #448741 48%, #448741 48%, #132259 49%, #132259 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #448741 0%,#448741 48%,#448741 48%,#132259 49%,#132259 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #448741 0%,#448741 48%,#448741 48%,#132259 49%,#132259 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448741', endColorstr='#132259',GradientType=1 ); /* IE6-9 */
+
+}
+
+.blueGreenGradient .body-content {
+    padding: 0;
 }
