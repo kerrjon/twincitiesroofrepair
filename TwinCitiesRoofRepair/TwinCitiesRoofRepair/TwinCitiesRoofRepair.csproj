@@ -183,6 +183,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\house-with-greens.jpg" />
     <Content Include="Content\images\house-with-peaks.jpg" />
     <Content Include="Content\images\house-with-trees.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_134922203 - Copy.jpg" />
@@ -268,6 +269,7 @@
     <Content Include="Views\Home\ServiceAreas.cshtml" />
     <Content Include="Views\Home\ChoosingRoofingContractors.cshtml" />
     <Content Include="Views\Home\InsuranceClaims.cshtml" />
+    <Content Include="Views\Home\Index.Phone.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
