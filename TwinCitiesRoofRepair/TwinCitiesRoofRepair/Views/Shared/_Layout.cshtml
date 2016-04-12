@@ -10,6 +10,7 @@
     @Html.Partial("_GoogleAnalytics")
 </head>
 <body>
+
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -22,11 +23,11 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                   
-                    <li>@Html.ActionLink("Roof Repair Experts", "RoofRepairExperts", "Home")</li>
+
+                    <li>@Html.ActionLink("Roof Repair", "RoofRepairExperts", "Home")</li>
                     <li>@Html.ActionLink("Storm Damage", "StormDamageSpecialists", "Home")</li>
-                    <li>@Html.ActionLink("Insurance Claims", "InsuranceClaims", "Home")</li>
-                    <li>@Html.ActionLink("Choosing a Contractor", "ChoosingRoofingContractors", "Home")</li>
+                    <li>@Html.ActionLink("Insurance", "InsuranceClaims", "Home")</li>
+                    <li>@Html.ActionLink("Why Us", "ChoosingRoofingContractors", "Home")</li>
                     <li>@Html.ActionLink("What to Expect", "WhatToExpect", "Home")</li>
                     <li>@Html.ActionLink("Service Area", "ServiceAreas", "Home")</li>
                     <li>@Html.ActionLink("Contact", "ContactUs", "Home")</li>
@@ -35,14 +36,17 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - West End Remodeling LLC</p>
-        </footer>
-    </div>
+    
+    @RenderBody()
 
+    <div class="fullWidthContainer">
+        <hr />
+        <div class="container body-content">
+            <footer>
+                <p>&copy; @DateTime.Now.Year - West End Remodeling LLC</p>
+            </footer>
+        </div>
+    </div>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)

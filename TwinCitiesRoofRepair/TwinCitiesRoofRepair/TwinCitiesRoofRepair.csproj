@@ -182,6 +182,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\house-with-peaks.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_205516810.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_212157424.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_250922995.jpg" />
