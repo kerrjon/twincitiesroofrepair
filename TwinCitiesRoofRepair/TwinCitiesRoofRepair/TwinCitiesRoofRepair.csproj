@@ -163,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\DisplayModeConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -183,11 +184,20 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\house-with-peaks.jpg" />
+    <Content Include="Content\images\house-with-trees.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_134922203 - Copy.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_134922203.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_143702518 - Copy.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_143702518.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_148466369.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_205516810.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_212157424.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_250922995.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_257205442.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_283733627.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_357301022.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_360576071.jpg" />
+    <Content Include="Content\images\Westend-Remodeling-Logo.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -195,6 +205,16 @@
     <Content Include="hours.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\images\Psd\Westend Remodeling Logo.ai" />
+    <Content Include="Content\images\shutterstock\shutterstock_268817510.eps" />
+    <Content Include="Content\images\shutterstock\shutterstock_357301337.eps" />
+    <Content Include="Content\images\shutterstock\shutterstock_357301604.eps" />
+    <Content Include="Content\images\shutterstock\shutterstock_357301625.eps" />
+    <Content Include="Content\images\shutterstock\shutterstock_360577607.eps" />
+    <Content Include="Content\images\shutterstock\shutterstock_373439641.eps" />
+    <Content Include="Content\images\shutterstock\shutterstock_386633119.eps" />
+    <Content Include="Content\images\shutterstock\shutterstock_393222598.eps" />
+    <Content Include="Content\images\shutterstock\shutterstock_399868333.eps" />
     <None Include="Properties\PublishProfiles\twincitiesroofrepair.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
