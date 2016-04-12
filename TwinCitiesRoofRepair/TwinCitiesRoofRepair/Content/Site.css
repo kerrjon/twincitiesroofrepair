@@ -1,130 +1,166 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿/*
+#6e612c
+#194420
+*/
+
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #194420;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
 .dl-horizontal dt {
-    white-space: normal;
+  white-space: normal;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
 textarea {
-    max-width: 280px;
-}
-.fullWidthContainer {
-    clear: both;
-}
-.homeBgrd {
-    background: url('/content/images/house-with-greens.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 -250px;
+  max-width: 280px;
 }
 
-.jumbotron {
-    background: transparent;
+.textToImage {
+  font-size: 1px;
+  text-indent: -9999px;
+  display: block;
+  float: left;
 }
-.jumbotronRight {
-    width: 50%;
-    margin-left: 50%;
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-.jumbotron h1 {
-    font-size: 30px;
-    font-size: 20px;
+
+.fullWidthContainer {
+  clear: both;
 }
+
+.logo {
+  background-image: url('/content/images/westend-remodeling-logo.png');
+  background-repeat: no-repeat;
+  width: 127px;
+  height: 64px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.homeBgrd {
+  background: url('/content/images/house-with-greens.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -250px;
+}
+
 
 /* < sm */
 @media (max-width: 768px) {
-    .homeBgrd {
-        background-position: 0 0;
-    }
-    .jumbotron h1 {
-        margin-top: 0;
-    }
-}
-   
-.opacityBox {
-    -ms-opacity: .9;
-    opacity: .9;
-    background: #fff;
-    -ms-border-radius: 3px;
-    border-radius: 3px;
+  .homeBgrd {
+    background-position: 0 0;
+  }
 }
 
-.featuredRoof .opacityBox {
-    padding: 10px;
+.opacityBox {
+  -ms-opacity: .9;
+  opacity: .9;
+  background: #fff;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
 }
 
 .navbar {
-    background: darkgreen;
+  background: #fff;
 }
 
-.navbar-inverse .navbar-brand,
+.navbar-inverse {
+  border-bottom: 0;
+  padding-bottom: 15px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+82,6e612c+83,6e612c+83,6e612c+100&1+0,1+82,0.29+86,1+100,0+100 */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 82%, rgba(110,97,44,0.82) 83%, rgba(110,97,44,0.29) 86%, rgba(110,97,44,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 82%,rgba(110,97,44,0.82) 83%,rgba(110,97,44,0.29) 86%,rgba(110,97,44,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 82%,rgba(110,97,44,0.82) 83%,rgba(110,97,44,0.29) 86%,rgba(110,97,44,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#006e612c',GradientType=0 ); /* IE6-9 */
+
+}
+.navbar-nav > li {
+  margin-top: 15px;
+}
 .navbar-inverse .navbar-nav > li > a {
-    color: #fff;
+  color: #6e612c;
+  font-weight: bold;
 }
+
+h1 {
+  color: #194420;
+  font-size: 35px;
+}
+
 .row {
-    margin-top: 30px;
+  margin-top: 30px;
 }
+
 .lightGreen {
-    background: #ddffed
+  background: #ddffed;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 .featuredRoof {
-    background-image: url('images/house-with-greens2.jpg');
-    background-position: top center;
-    background-size: cover;
-    min-height: 350px;
+  background-image: url('images/house-with-peaks-short.jpg');
+  background-position: bottom left;
+  background-size: 100% auto;
+  min-height: 350px;
+  background-repeat: no-repeat;
 }
 
+  .featuredRoof .opacityBox {
+    padding: 10px;
+  }
+
 .lightningStrike, .roofersOnHouse {
-    -ms-background-size: cover;
-    background-size: cover;
-    background-image: url('images/lightning-strike.jpg');
-    background-position: bottom center;
-    height: 300px;
-    color: #fff;
-    padding: 40px;
+  -ms-background-size: cover;
+  background-size: cover;
+  background-image: url('images/lightning-strike.jpg');
+  background-position: bottom center;
+  height: 300px;
+  color: #fff;
+  padding: 40px;
 }
 
 
 
 .topBottomBorder {
-    border-top: 3px solid goldenrod;
-    border-bottom: 3px solid goldenrod;
+  border-top: 2px solid #6e612c;
+  border-bottom: 2px solid #6e612c;
 }
 
 .roofersOnHouse {
-    background-image: url('images/roofers-on-house.jpg');
-    background-position: top center;
-   
+  background-image: url('images/roofers-on-house.jpg');
+  background-position: top center;
 }
 
 .blueGreenGradient {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#448741+0,448741+48,448741+48,132259+49,132259+100 */
-background: #448741; /* Old browsers */
-background: -moz-linear-gradient(left,  #448741 0%, #448741 48%, #448741 48%, #132259 49%, #132259 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #448741 0%,#448741 48%,#448741 48%,#132259 49%,#132259 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #448741 0%,#448741 48%,#448741 48%,#132259 49%,#132259 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448741', endColorstr='#132259',GradientType=1 ); /* IE6-9 */
-
+  background: #448741; /* Old browsers */
+  background: -moz-linear-gradient(left, #448741 0%, #448741 48%, #448741 48%, #132259 49%, #132259 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #448741 0%,#448741 48%,#448741 48%,#132259 49%,#132259 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #448741 0%,#448741 48%,#448741 48%,#132259 49%,#132259 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448741', endColorstr='#132259',GradientType=1 ); /* IE6-9 */
 }
 
-.blueGreenGradient .body-content {
+  .blueGreenGradient .body-content {
     padding: 0;
-}
+  }

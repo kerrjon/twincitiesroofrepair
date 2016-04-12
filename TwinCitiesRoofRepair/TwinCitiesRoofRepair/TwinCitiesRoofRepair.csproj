@@ -184,6 +184,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\house-with-greens.jpg" />
+    <Content Include="Content\images\house-with-peaks-short.jpg" />
     <Content Include="Content\images\house-with-peaks.jpg" />
     <Content Include="Content\images\house-with-trees.jpg" />
     <Content Include="Content\images\lightning-strike.jpg" />
