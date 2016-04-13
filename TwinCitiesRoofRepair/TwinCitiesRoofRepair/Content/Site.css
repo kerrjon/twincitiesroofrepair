@@ -1,6 +1,7 @@
 ﻿/*
-#6e612c
 #194420
+#6e612c
+
   font-family: 'Source Sans Pro', sans-serif;
   font-family: 'Alegreya Sans SC', sans-serif;
 */
@@ -67,13 +68,6 @@ textarea {
 }
 
 
-/* < sm */
-@media (max-width: 768px) {
-  .homeBgrd {
-    background-position: 0 0;
-  }
-}
-
 .opacityBox {
   -ms-opacity: .9;
   opacity: .9;
@@ -86,6 +80,7 @@ textarea {
   background: #fff;
 }
 
+
 .navbar-inverse {
   border-bottom: 0;
   border-top: 1px solid #6e612c;
@@ -97,18 +92,35 @@ background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#006e612c',GradientType=0 ); /* IE6-9 */
 
 }
-.navbar-nav > li {
-  margin-top: 15px;
+.navbar-nav {
+  margin-top: 10px;
 }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #927f32;
+}
+
 .navbar-inverse .navbar-nav > li > a {
   color: #6e612c;
   font-weight: bold;
   font-size: 14px;
   font-weight: 600;
 }
+.navbar-toggle {
+  background-color: #194420;
+  margin-top: 17px; 
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #6e612c;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #6e612c;
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Alegreya Sans SC', sans-serif;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 h1 {
   color: #194420;
@@ -133,6 +145,7 @@ h1 {
   background-size: 100% auto;
   min-height: 350px;
   background-repeat: no-repeat;
+  margin-top: 20px;
 }
 
   .featuredRoof .opacityBox {
@@ -146,7 +159,7 @@ h1 {
   background-position: bottom center;
   height: 300px;
   color: #fff;
-  padding: 40px;
+  padding: 5vw;
 }
 
 
@@ -173,3 +186,48 @@ h1 {
   .blueGreenGradient .body-content {
     padding: 0;
   }
+
+
+/* max sizes*/
+@media (min-width: 1000px) {
+  .lightningStrike, .roofersOnHouse {
+    padding: 50px;
+  }
+}
+
+/* < sm */
+@media (max-width: 768px) {
+  .homeBgrd {
+    background-position: 0 0;
+  }
+}
+
+/* nav early shrink */
+  @media (max-width: 990px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      border-bottom: 1px solid #6e612c;
+      background: #fff;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
