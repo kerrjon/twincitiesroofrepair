@@ -183,11 +183,18 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\badge-warranty.png" />
+    <Content Include="Content\images\better-business-bureau-bbb.png" />
+    <Content Include="Content\images\check.png" />
     <Content Include="Content\images\house-with-greens.jpg" />
     <Content Include="Content\images\house-with-peaks-short.jpg" />
     <Content Include="Content\images\house-with-peaks.jpg" />
+    <Content Include="Content\images\house-with-peaks.png" />
     <Content Include="Content\images\house-with-trees.jpg" />
+    <Content Include="Content\images\icon-hammer-pencil-gold.png" />
+    <Content Include="Content\images\icon-hammer-pencil-green.png" />
     <Content Include="Content\images\lightning-strike.jpg" />
+    <Content Include="Content\images\mn-service-map.png" />
     <Content Include="Content\images\roofers-on-house.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_134922203 - Copy.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_134922203.jpg" />

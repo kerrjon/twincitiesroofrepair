@@ -1,6 +1,6 @@
 ﻿@using System.Configuration
 @{
-    ViewBag.Title = "Twin Cities Roof Repair - West End Remodeling";
+  ViewBag.Title = "Twin Cities Roof Repair - West End Remodeling";
 }
 <div class="fullWidthContainer featuredRoof">
   <div class="container body-content ">
@@ -9,131 +9,142 @@
       <p class="lead">West End Remodeling has you covered!</p>
       <p class="op">You can trust West End Remodeling for all your roofing needs. Whether your roof is damaged from a storm or is simply in need of replacement, let our experienced team do it right!</p>
     </div>
-    </div>
   </div>
+</div>
 
 <div class="fullWidthContainer blueGreenGradient topBottomBorder">
 
-    <div class="container body-content">
-        <div class="col-md-6 roofersOnHouse">
-            <h2>Roof Repair Experts</h2>
-            <p>
-                West End Remodeling provides expert roofing services to residential property owners in the Twin Cities metro area.  Roofing manufacturer product knowledge, uniform roof installation standards, continuous safety training and a determined commitment
-            to 100% customer satisfaction are the hallmarks of our service.
-            </p>
-            <p>
-                <a class="btn btn-primary" href="@Url.Action("RoofRepairExperts", "Home")" title="Learn more about our roofing repair experts">More about Roofing Repair &raquo;</a>
-            </p>
-        </div>
-
-        <div class="col-md-6 lightningStrike">
-            <h2>Storm Damage Specialists</h2>
-            <p>In an emergency, every second counts. Our roofing specialists offer emergency roof repair with quick turnaround to meet your roofing needs.</p>
-            <p>
-                <a class="btn btn-primary" href="@Url.Action("StormDamageSpecialists", "Home")" title="We are twin cities specialists at repairing storm damaged roofing">Learn more Storm Damage &raquo;</a>
-            </p>
-        </div>
+  <div class="container body-content">
+    <div class="col-md-6 roofersOnHouse">
+      <h2>Roof Repair Experts</h2>
+      <p>
+        West End Remodeling provides expert roofing services to residential property owners in the Twin Cities metro area.  Roofing manufacturer product knowledge, uniform roof installation standards, continuous safety training and a determined commitment
+        to 100% customer satisfaction are the hallmarks of our service.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="@Url.Action("RoofRepairExperts", "Home")" title="Learn more about our roofing repair experts">More about Roofing Repair &raquo;</a>
+      </p>
     </div>
+
+    <div class="col-md-6 lightningStrike">
+      <h2>Storm Damage Specialists</h2>
+      <p>In an emergency, every second counts. Our roofing specialists offer emergency roof repair with quick turnaround to meet your roofing needs.</p>
+      <p>
+        <a class="btn btn-primary" href="@Url.Action("StormDamageSpecialists", "Home")" title="We are twin cities specialists at repairing storm damaged roofing">Learn more Storm Damage &raquo;</a>
+      </p>
+    </div>
+  </div>
 
 </div>
 
 <div class="fullWidthContainer">
-    <div class="container body-content">
-        <div class="col-md-6">
-            map here
-        </div>
-        <div class="col-md-4 col-md-offset-2">
-            <h2>Service Areas</h2>
-            <p>
-                Our roofing teams typically service the Twin Cities metro area. See our roofing coverage area map.  When hail storms hit Minnesota or Iowa, we may assemble
-                teams to assess and repair damaged areas outside of the Minneapolis / St.Paul metro area.  Please contact us at @ConfigurationManager.AppSettings["phone"] if a storm hits your area.
-            </p>
-            <p>
-                <a class="btn btn-primary" href="@Url.Action("ServiceAreas", "Home")" title="See our roofing services coverage map">See our coverage map &raquo;</a>
-            </p>
-        </div>
-
+  <div class="container body-content">
+    <div class="col-lg-2 col-md-3 col-sm-4">
+      <img src="/Content/images/mn-service-map.png" class="mnServiceMap" title="Minnesota Roofing Service Area" alt="Minnesota Roofing Service Area" />
     </div>
+    <div class="col-kg-10 col-md-9 col-sm-8">
+      <h2>Minnesota Service Area</h2>
+      <p>
+        Our roofing teams typically service the Twin Cities metro area. See our roofing coverage area map.  When hail storms hit Minnesota or Iowa, we may assemble
+        teams to assess and repair damaged areas outside of the Minneapolis / St.Paul metro area.  Please contact us at @ConfigurationManager.AppSettings["phone"] if a storm hits your area.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="@Url.Action("ServiceAreas", "Home")" title="See our roofing services coverage map">See our coverage map &raquo;</a>
+      </p>
+    </div>
+
+  </div>
 </div>
 
-<div class="fullWidthContainer">
-    <div class="container body-content">
+<div class="fullWidthContainer bgrdGold centered">
+  <div class="container body-content">
+    <div class="col-md-8 col-md-offset-2">
+      <img src="/Content/images/better-business-bureau-bbb.png" class="bbbLogo" title="WestEnd Remodeling has A+ Rating with the BBB" alt="WestEnd Remodeling has A+ Rating with the BBB" />
 
-
-        <div class="col-md-8 ">
-            <h2>Choosing a Roofing Contractor</h2>
-            <p>
-                We know that there are many more factors to look at apart from the price when choosing a roofing company.
-                Do your homework and check the company's credentials before choosing their services.  West End Remodeling stands by our reputation and
-                it shows with our AAA Better Business Bureau record.
-            </p>
-
-          <h3>Roofing Company Checklist</h3>
-          <ul class="checklist">
-                <li>
-                  <span>Is the Minnesota roofing company licensed, bonded and insured?</span> 
-                  Some states don't require roofing companies to be licensed.  Minnesota's West End Remodeling LLC, is a licensed, bonded and insured roofing contractor.
-                </li>
-                <li>
-                  <span>Does the roofing company have a reputation for quality?</span>
-                  Most roofing companies will readily provide you with a list of references. A quick call to the Better Business Bureau may also help in determining if 
-                  roofing companies have had any complaints registered against them.
-                </li>
-                <li>
-                  <span>
-                    Does the roofing company provide you with a copy of the roofing material manufacturer's warranty and thoroughly explain it?
-                    Are defective materials going to be replaced at the original purchasing price or are they prorated? Will labor be an additional cost?
-                  </span>
-                </li>
-                <li>
-                  <span>Does the roofing company thoroughly inspect your roof and then explain his findings? </span>
-                  A good roofing company will inspect anything that could cause leaks whether it is roof related or not (for instance, chimney defects, air conditioning units, fans, walls, etc).
-                </li>
-                <li><span>Is the roofing company going to use four (4) fasteners per shingle? Six (6) per shingle in areas where there is frequent high wind?</span></li>
-                <li><span>Does the roofing contractor have a pager or cellular number in case of an emergency? Will he/she be available on weekends?</span></li>
-                <li><span>Is someone from the roofing company going to supervise the different phases of the project and provide a final inspection?</span></li>
-            </ul>
-        </div>
-        <div class="col-md-3 col-md-offset-1">
-            <h3>Important Questions to Ask about Roof Warranties</h3>
-            <ul>
-                <li>What is the length of the shingle warranty?</li>
-                <li>Is the shingle warranty transferable?</li>
-                <li>What does the shingle and installation warranty specifically cover?</li>
-            </ul>
-        </div>
-
-
+      <h2>Choosing a Roofing Contractor</h2>
+      <p>
+        We know that there are many factors to look at apart from the price when choosing a roofing company.<br />
+        Do your homework and check the company's credentials before choosing their services. <br />
+        WestEnd Remodeling stands by our reputation and it shows with our AAA Better Business Bureau record.
+      </p>
     </div>
+  </div>
+</div>
+<div class="fullWidthContainer centered">
+  <div class="container body-content">
+    <div class="col-md-8 col-md-offset-2 bgrdChecklist">
+      <img src="~/Content/images/icon-hammer-pencil-gold.png" title="roofing contractor checklist" alt="roofing contractor checklist"/>
+      <h3 class="gold">Roofing Company Checklist</h3>
+      <ul class="checklist">
+        <li>
+          <span>Is the Minnesota roofing company licensed, bonded and insured?</span>
+          Some states don't require roofing companies to be licensed. Minnesota's West End Remodeling LLC, is a licensed, bonded and insured roofing contractor.
+        </li>
+        <li>
+          <span>Does the roofing company have a reputation for quality?</span>
+          Most roofing companies will readily provide you with a list of references. A quick call to the Better Business Bureau may also help in determining if
+          roofing companies have had any complaints registered against them.
+        </li>
+        <li>
+          <span>
+            Does the roofing company provide you with a copy of the roofing material manufacturer's warranty and thoroughly explain it?
+            Are defective materials going to be replaced at the original purchasing price or are they prorated? Will labor be an additional cost?
+          </span>
+        </li>
+        <li>
+          <span>Does the roofing company thoroughly inspect your roof and then explain his findings? </span>
+          A good roofing company will inspect anything that could cause leaks whether it is roof related or not (for instance, chimney defects, air conditioning units, fans, walls, etc).
+        </li>
+        <li><span>Is the roofing company going to use four (4) fasteners per shingle? Six (6) per shingle in areas where there is frequent high wind?</span></li>
+        <li><span>Does the roofing contractor have a pager or cellular number in case of an emergency? Will he/she be available on weekends?</span></li>
+        <li><span>Is someone from the roofing company going to supervise the different phases of the project and provide a final inspection?</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="fullWidthContainer">
+    <div class="container body-content">
+      <div class="col-md-6 col-md-offset-2">
+        <h3>Important Questions to Ask about Roof Warranties</h3>
+        <ul>
+          <li>What is the length of the shingle warranty?</li>
+          <li>Is the shingle warranty transferable?</li>
+          <li>What does the shingle and installation warranty specifically cover?</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <img src="/Content/images/badge-warranty.png" alt="WestEnd Remodeling Roof Warranties" />
+      </div>
+    </div>
+  </div>
 </div>
 
+
 <div class="fullWidthContainer">
-    <div class="container body-content">
-
-
-        <div class="col-md-6">
-            <h2>Insurance Claims</h2>
-            <p>
-                We have worked with almost every insurance company over the years.  We can pass on our knowledge of how to properly handle your claim and what to expect from your insurance company.
-            </p>
-            <p>
-                <a class="btn btn-primary" href="@Url.Action("InsuranceClaims", "Home")" title="Dealing with roofing insurance claims">How we handle insurance claims &raquo;</a>
-            </p>
-        </div>
-
-        <div class="col-md-6">
-            <h2>What to Expect from Us</h2>
-          <p>
-            Shingle roof replacement is a significant investment. Choosing the right shingles is the first step to a beautiful and strong roof.
-            Price is also linked to the type of roofing material, its features and warranty. Additionally, material and workmanship quality are
-            known to affect the performance as well as the durability of your roofing system. It is important, therefore, to select an experienced
-            and reliable roofing company in Twin Cities metro.
-
-          </p>
-            <p>
-                <a class="btn btn-primary" href="@Url.Action("WhatToExpect", "Home")" title="What to expect with West End Remodeling roofing services">Learn what to expect from us &raquo;</a>
-            </p>
-        </div>
-
+  <div class="container body-content">
+    <div class="col-md-6">
+      <h2>Insurance Claims</h2>
+      <p>
+        We have worked with almost every insurance company over the years.  We can pass on our knowledge of how to properly handle your claim and what to expect from your insurance company.
+      </p>
+      <p>
+        <a class="btn btn-primary" href="@Url.Action("InsuranceClaims", "Home")" title="Dealing with roofing insurance claims">How we handle insurance claims &raquo;</a>
+      </p>
     </div>
+
+    <div class="col-md-6">
+      <h2>What to Expect from Us</h2>
+      <p>
+        Shingle roof replacement is a significant investment. Choosing the right shingles is the first step to a beautiful and strong roof.
+        Price is also linked to the type of roofing material, its features and warranty. Additionally, material and workmanship quality are
+        known to affect the performance as well as the durability of your roofing system. It is important, therefore, to select an experienced
+        and reliable roofing company in Twin Cities metro.
+
+      </p>
+      <p>
+        <a class="btn btn-primary" href="@Url.Action("WhatToExpect", "Home")" title="What to expect with West End Remodeling roofing services">Learn what to expect from us &raquo;</a>
+      </p>
+    </div>
+
+  </div>
 </div>
