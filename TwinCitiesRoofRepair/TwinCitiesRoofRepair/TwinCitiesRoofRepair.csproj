@@ -282,6 +282,7 @@
     <Content Include="Views\Home\ChoosingRoofingContractors.cshtml" />
     <Content Include="Views\Home\InsuranceClaims.cshtml" />
     <Content Include="Views\Home\Index.Phone.cshtml" />
+    <Content Include="Views\Shared\_LayoutConstruction.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
