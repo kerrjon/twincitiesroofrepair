@@ -52,6 +52,24 @@ textarea {
   padding: 20px 0;
 }
 
+  .fullWidthContainer.insurance {
+    background-image: url('images/insurance.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-color: #d3f3b5;
+    background-size: 40%;
+  }
+
+  .fullWidthContainer.whatToExpect {
+    background-image: url('images/bgrd-shingles.jpg');
+    background-size: cover;
+    background-color: #98886c;
+    background-repeat: no-repeat;
+    background-position: center left;
+    border-top: 1px solid #6e612c;
+    border-bottom: 3px solid #6e612c;
+  }
+
 .bgrdGold {
   background-color: #fffcd7;
   border-top: 3px solid #6e612c;
@@ -233,10 +251,19 @@ h1 {
   }
 }
 
-/* < sm */
+/* <= sm */
 @media (max-width: 768px) {
   .homeBgrd {
     background-position: 0 0;
+  }
+  .fullWidthContainer.insurance {
+    background-image: none;
+  }
+  .xsCentered {
+    text-align: center;
+  }
+  .xsJustify {
+    text-align: justify;
   }
 }
 
