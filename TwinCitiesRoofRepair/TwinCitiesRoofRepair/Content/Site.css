@@ -68,6 +68,7 @@ textarea {
 .fullWidthContainer {
   clear: both;
   padding: 20px 0;
+  display: block;
 }
 
   .fullWidthContainer.insurance {
