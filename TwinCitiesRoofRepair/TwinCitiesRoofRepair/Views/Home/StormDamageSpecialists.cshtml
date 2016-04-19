@@ -1,34 +1,43 @@
-﻿@{
-    ViewBag.Title = "Experienced Twin Cities Roofing Contractors";
+﻿@using System.Configuration
+@{
+  ViewBag.Title = "Experienced Twin Cities Roofing Contractors";
 }
 
+<div class="fullWidthContainer stormDamage">
+  <div class="container body-content ">
 
-<div class="fullWidthContainer">
-    <div class="container body-content">
-        <h1>Twin Cities Roof Repair Experts </h1>
-
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Roof Repair Experts</h2>
-                <p></p>
-                <p>
-                    <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
-                </p>
-            </div>
-            <div class="col-md-8">
-                <h2>What to Expect</h2>
-                <p></p>
-                <p>
-                    <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a>
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h2>What to Expect</h2>
-                <p></p>
-                <p>
-                    <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a>
-                </p>
-            </div>
-        </div>
+    <div class="col-md-7 col-sm-7 col-md-offset-1 col-sm-offset-1 transparentWhiteBox">
+      <h1>Twin Cities Roof Repair Experts </h1>
+      <p>
+        Even in today's extremely competitive market, we have come out at the top for
+        providing our clients with excellent services at the most reasonable prices.
+        We believe in maintaining the highest standards of quality without ever
+        compromising on the services we provide.
+      </p>
+      <p>
+        At West End Remodeling, we understand the role a good roof plays in the structural integrity of any
+        building and we want our customers to have the best homes in Twin Cities metro area.
+        We have years of experience and are skilled in using a variety of materials and the latest technology
+        to help prevent future water damage, hail damage or wind damage.
+      </p>
     </div>
+  </div>
+</div>
+
+<div class="fullWidthContainer ">
+  <div class="container body-content bgrdChecklist col-md-offset-2 col-md-8">
+    <div class="col-md-3 col-sm-4 centered">
+      <img src="/Content/images/icon-hammer-pencil-gold.png" alt="West End Remodeling Storm Damage Team Icon"/>
+    </div>
+    <div class="col-md-9 col-sm-8 ">
+      <h2 class="xsCentered">I have Storm Damage! <br/>What should I do?</h2>
+      <p>
+        If you beleive you have a wind damaged or hail damaged roof, you should contact an experience contractor to have it looked at right away.
+        If you delay, and there is a hidden problem, you may end up causing more damage to your home. At West End Remodeling we offer free no-obligation quotes and
+        will work with you to get your damaged home covered by your insurance company. Call us at @ConfigurationManager.AppSettings["phone"] to schedule
+        no free no-obligation quote.
+      </p>
+    </div>
+
+  </div>
 </div>

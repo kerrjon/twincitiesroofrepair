@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Configuration
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -37,11 +38,12 @@
     
     @RenderBody()
 
-    <div class="fullWidthContainer">
-        
+    <div class="fullWidthContainer footerWrapper">
         <div class="container body-content">
             <footer>
-                <p>&copy; @DateTime.Now.Year - West End Remodeling LLC</p>
+              <p>&copy; @DateTime.Now.Year - West End Remodeling LLC</p>
+              <p><strong>Call @ConfigurationManager.AppSettings["phone"] for your free no-obligation roofing estimate!</strong></p>
+              <p>Headquartered in St. Louis Park, MN and servicing the Twin Cities metro area.</p>
             </footer>
         </div>
     </div>

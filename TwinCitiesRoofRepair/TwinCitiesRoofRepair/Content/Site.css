@@ -6,12 +6,28 @@
   font-family: 'Alegreya Sans SC', sans-serif;
 */
 
-
 body {
   padding-top: 75px;
   padding-bottom: 20px;
   color: #194420;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footerWrapper {
+  margin-top: 30px;
+  clear: both;
+  text-align: center;
+  background-color: #eaeae2;
+  border-top: 1px solid #6e612c;
+  border-bottom: 3px solid #194420;
+}
+
+footer {
+  font-size: 12px; 
+}
+
+footer p {
+  margin: 1px 0;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -26,6 +42,8 @@ body {
 .dl-horizontal dt {
   white-space: normal;
 }
+
+
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,
@@ -56,7 +74,7 @@ textarea {
     background-image: url('images/insurance.jpg');
     background-position: center right;
     background-repeat: no-repeat;
-    background-color: #d3f3b5;
+    background-color: #f6f7f2;
     background-size: 40%;
   }
 
@@ -70,6 +88,17 @@ textarea {
     border-bottom: 3px solid #6e612c;
   }
 
+  .fullWidthContainer.stormDamage {
+    background-image: url('images/bgrd-damaged-roof.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+
+  .transparentWhiteBox {
+    background-color: rgba(255, 255,255, 0.6); 
+    border-radius: 10px;
+  }
 .bgrdGold {
   background-color: #fffcd7;
   border-top: 3px solid #6e612c;
@@ -102,15 +131,15 @@ textarea {
   padding-left: 5px;
 }
 
-.checklist li {
-  text-align: left;
-  list-style-type: none;
-  margin: 8px 0;
-  padding: 0 0 0 45px;
-  background-image: url('images/check.png');
-  background-repeat: no-repeat;
-  background-position: top left;
-}
+  .checklist li {
+    text-align: left;
+    list-style-type: none;
+    margin: 8px 0;
+    padding: 0 0 0 45px;
+    background-image: url('images/check.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
 
 .bgrdChecklist {
   border-radius: 8px;
@@ -256,12 +285,16 @@ h1 {
   .homeBgrd {
     background-position: 0 0;
   }
-  .fullWidthContainer.insurance {
+
+  .fullWidthContainer.insurance,
+  .fullWidthContainer.stormDamage {
     background-image: none;
   }
+
   .xsCentered {
     text-align: center;
   }
+
   .xsJustify {
     text-align: justify;
   }
