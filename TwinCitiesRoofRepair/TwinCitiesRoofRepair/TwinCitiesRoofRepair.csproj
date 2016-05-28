@@ -186,11 +186,14 @@
     <Content Include="Content\images\badge-top-rated.png" />
     <Content Include="Content\images\badge-warranty.png" />
     <Content Include="Content\images\better-business-bureau-bbb.png" />
+    <Content Include="Content\images\bgrd-damaged-roof-2.jpg" />
     <Content Include="Content\images\bgrd-damaged-roof-color.jpg" />
     <Content Include="Content\images\bgrd-damaged-roof.jpg" />
     <Content Include="Content\images\bgrd-shingles.jpg" />
     <Content Include="Content\images\check.png" />
     <Content Include="Content\images\house-with-greens.jpg" />
+    <Content Include="Content\images\house-with-greens2.jpg" />
+    <Content Include="Content\images\house-with-peak-full.jpg" />
     <Content Include="Content\images\house-with-peaks-short.jpg" />
     <Content Include="Content\images\house-with-peaks.jpg" />
     <Content Include="Content\images\house-with-peaks.png" />
@@ -207,10 +210,14 @@
     <Content Include="Content\images\shutterstock\shutterstock_148466369.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_189840191.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_205516810.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_208066345.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_212157424.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_250922995.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_257205442.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_283188245.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_283733627.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_317066681.jpg" />
+    <Content Include="Content\images\shutterstock\shutterstock_324886664.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_357301022.jpg" />
     <Content Include="Content\images\shutterstock\shutterstock_360576071.jpg" />
     <Content Include="Content\images\Westend-Remodeling-Logo.png" />
@@ -232,6 +239,7 @@
     <Content Include="Content\images\shutterstock\shutterstock_393222598.eps" />
     <Content Include="Content\images\shutterstock\shutterstock_399868333.eps" />
     <Content Include="Content\images\Psd\maps.zip" />
+    <Content Include="Content\images\shutterstock\shutterstock_357301625 [Converted].ai" />
     <None Include="Properties\PublishProfiles\twincitiesroofrepair.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

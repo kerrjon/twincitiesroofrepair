@@ -13,8 +13,11 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.fullWidth {
+    width: 100%;
+}
+
 .footerWrapper {
-  margin-top: 30px;
   clear: both;
   text-align: center;
   background-color: #eaeae2;
@@ -90,10 +93,10 @@ textarea {
   }
 
   .fullWidthContainer.stormDamage {
-    background-image: url('images/bgrd-damaged-roof.jpg');
-    background-size: cover;
+    background-image: url('images/bgrd-damaged-roof-2.jpg');
+      background-size: 50%;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: bottom right;
   }
 
   .transparentWhiteBox {
@@ -273,18 +276,30 @@ h1 {
     padding: 0;
   }
 
-
-/* max sizes*/
-@media (min-width: 1000px) {
-  .lightningStrike, .roofersOnHouse {
-    padding: 50px;
-  }
+  .gold {
+  color: #6e612c;
 }
 
-/* <= sm */
-@media (max-width: 768px) {
-  .homeBgrd {
+.green {
+  color: #194420;
+}
+
+.lightTan {
+    background-color: #f6f7f2;
+}
+.darkTan {
+    background-color: #eaeae2;
+}
+
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .homeBgrd {
     background-position: 0 0;
+  }
+  .fullWidthContainer.stormDamage {
+      background: none;
   }
 
   .fullWidthContainer.insurance,
@@ -301,9 +316,9 @@ h1 {
   }
 }
 
-/* nav early shrink */
-@media (max-width: 990px) {
-  .navbar-header {
+/* Small */
+@media(min-width:768px) and (max-width:991px) {
+    .navbar-header {
     float: none;
   }
 
@@ -337,10 +352,13 @@ h1 {
       }
 }
 
-.gold {
-  color: #6e612c;
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+     .lightningStrike, .roofersOnHouse {
+    padding: 50px;
+  }
 }
 
-.green {
-  color: #194420;
-}
+/* Large */
+@media(min-width:1200px){}
+
